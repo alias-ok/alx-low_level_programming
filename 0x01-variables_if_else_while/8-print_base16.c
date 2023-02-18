@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Result: Always 0 for success
  */
 int main(void)
@@ -8,6 +9,7 @@ int main(void)
 char d;
 int c;
 d = 'a';
+c = 0;
 while (c < 10)
 {
 putchar(c + '0');
