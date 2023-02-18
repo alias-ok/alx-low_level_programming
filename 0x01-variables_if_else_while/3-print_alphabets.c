@@ -1,7 +1,10 @@
 #include <stdio.h>
-/*more headers at this point*/
-/*main - entry point*/
-/*return: value 0 means success*/
+#include <stdlib.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 for success
+ */
 int main(void)
 {
 char c;
