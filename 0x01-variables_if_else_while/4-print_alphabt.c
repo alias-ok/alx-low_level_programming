@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main -Entry point
- * return: value 0 for success
+ * main -Entry poin
+ * t
+ * Return: Always 0 for success
  */
 int main(void)
 {
