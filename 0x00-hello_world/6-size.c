@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main - initiate program
- * return - program returns 0
+ * main - Entry point
+ *
+ * Return: Always 0 for success
  */
-int main(void) /*void - main function should have no value*/
+int main(void)
 {
 char a;
 int b;
