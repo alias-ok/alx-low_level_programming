@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabetx10 - Entry point which prints alphabets in lowercase x10
+ * print_alphabet_x10 - Entry point which prints alphabets in lowercase x10
  *
  * Return: Always 0 for success
  */
