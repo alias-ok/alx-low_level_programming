@@ -1,14 +1,13 @@
 #include "main.h"
 /**
  * _abs - Entry point that prints the absolute value of an integer
- * @a: Parameter, var name
+ * @c: Parameter, var name
  * Return: Always 0 for success
  */
-int _abs(int a)
+int _abs(int c)
 {
-if (a < 0)
-{
-a = -a;
-}
-return (a);
+if (c >= 0)
+	return (c);
+else
+	return (-c);
 }
