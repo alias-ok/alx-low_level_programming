@@ -2,7 +2,7 @@
 /**
  * print_last_digit - Entry point that prints the last digit of a number
  * @a: Parameter set
- * Return 0 for success
+ * Return: Always last for success
  */
 int print_last_digit(int a)
 {
