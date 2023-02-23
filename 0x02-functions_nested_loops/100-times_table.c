@@ -1,14 +1,12 @@
 #include "main.h"
 /**
  * print_times_table - Entry point that prints the n times table
- *@n: Value of times table to be printed
+ * @n: Value of times table to be printed
  * Return:
  */
 void print_times_table(int n)
 {
 int num, mult, prod;
-while ((n = 2))
-{
 if (n >= 0 && n <= 15)
 {
 for (num = 0; num <= n; num++)
@@ -33,7 +31,6 @@ _putchar((prod / 10) + '0');
 _putchar((prod % 10) + '0');
 }
 _putchar('\n');
-}
 }
 }
 }
