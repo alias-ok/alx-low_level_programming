@@ -13,7 +13,7 @@ for (d = 1; d <= 10; d++)
 {
 for (m = 0; m <= 14; m++)
 {
-if (m > 10)
+if (m >= 10)
 putchar('1');
 putchar(m % 10 + '0');
 }
