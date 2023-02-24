@@ -2,28 +2,27 @@
 #include <stdio.h>
 /**
  * print_triangle - Entry point that prints a triangle, followed by a new line
- *
+ * @size: Set parameter to store value of size
  * Return: ..
  */
 void print_triangle(int size)
 {
-int x, y, z;
-
 if (size <= 0)
 {
 putchar('\n');
 }
 else
 {
-for (x = 0; x < size; x++)
+int x, y;
+for (x = 1; x <= size; x++)
 {
-for (y = size - x; y > 1; y++)
+for (y = x; y < size; y++)
 {
-putchar(32);
+putchar(' ');
 }
-for (z = 0; z <= x; z++)
+for (y = 1; y <= x; y++)
 {
-putchar(35);
+putchar('#');
 }
 putchar('\n');
 }
