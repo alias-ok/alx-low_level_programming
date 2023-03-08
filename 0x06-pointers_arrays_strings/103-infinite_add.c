@@ -10,7 +10,7 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int num, tens = 0;
+	int num, tens = 0, r_index = 0;
 
 	for (; *n1 && n2; n1--, n2--, r_index--)
 	{
@@ -48,9 +48,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
  * @r_index: Current index of buffer
  * Return: Should be a pointer to the result or 0
  */
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int index, n1_len = 0, n2_len = 0;
+
 	for (index = 0; *(n1 + index); index++)
 		n1_len++;
 	for (index = 0; *(n2 + index); index++)
